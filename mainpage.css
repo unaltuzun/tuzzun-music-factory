@@ -1,0 +1,41 @@
+body{
+    background: whitesmoke !important;
+}
+.jumbotron {
+    background-image: url("https://cdn.suwalls.com/wallpapers/music/musical-instruments-8296-1920x1200.jpg");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: top 20% left 50%;
+    background-size: 1120px 630px;
+    color: White;
+}
+.card {
+    padding: 0px;
+    box-shadow: 0px 2px 8px 4px rgba(2, 28, 66, 0.25);
+}
+.card img{
+    height: 159px;
+}
+
+.product-list .row a{
+    text-decoration: none !important;
+    color: inherit;
+    transition: 0.2s;
+}
+.product-list .row a:hover{
+    font-size: 1.05rem;
+    color: maroon;
+}
+.promoted {
+    background: rgb(248, 248, 248);
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+.promoted img{
+    height: 120px;
+}
+.promoted .card {
+    width: auto;
+    background: rgb(246, 246, 254);
+    box-shadow: 9px 14px 20px 1px rgba(1, 36, 88, 0.25);
+}
